@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account - Attira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Attira</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="policies.html">Policies</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="account">
+    <h2>Login / Sign Up</h2>
+    <div id="login-form">
+      <input type="text" placeholder="Username" id="username">
+      <input type="password" placeholder="Password" id="password">
+      <button id="login-btn">Login</button>
+      <button id="signup-btn">Sign Up</button>
+    </div>
+    <p id="login-success" style="display:none; color:green;">Logged in successfully!</p>
+    <div id="orders" style="display:none;">
+      <h4>Past Orders:</h4>
+      <ul id="order-list"></ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Attira. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
